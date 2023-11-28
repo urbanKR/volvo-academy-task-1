@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VolvoAcademyTask1": {
+      "commandName": "Project",
+      "commandLineArgs": "extended-calc"
+    }
+  }
+}

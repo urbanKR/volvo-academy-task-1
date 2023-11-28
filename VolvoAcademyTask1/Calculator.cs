@@ -2,6 +2,9 @@
 
 namespace VolvoAcademyTask1
 {
+    /// <summary>
+    /// Calculator with additional conditions
+    /// </summary>
     public static class Calculator
     {
         public static void Start()
