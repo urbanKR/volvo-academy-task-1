@@ -88,7 +88,14 @@ namespace VolvoAcademyTask1
                     Console.WriteLine($"{firstNumber} * {secondNumber} = {MathFunctions.CalculateProduct(firstNumber, secondNumber)}");
                     break;
                 case "/":
-                    Console.WriteLine($"{firstNumber} / {secondNumber} = {MathFunctions.CalculateQuotient(firstNumber, secondNumber)}");
+                    if(secondNumber == 0)
+                    {
+                        Console.WriteLine("You can not divide by zero!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{firstNumber} / {secondNumber} = {MathFunctions.CalculateQuotient(firstNumber, secondNumber)}");
+                    }
                     break;
                 case "^":
                     Console.WriteLine($"{firstNumber} ^ {secondNumber} = {MathFunctions.CalculateExponential(firstNumber, secondNumber)}");
